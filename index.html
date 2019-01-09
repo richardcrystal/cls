@@ -14,7 +14,9 @@
       @media only screen and (max-width: 1000px) { .row.userMain{column-count:3} }
       @media only screen and (max-width: 700px) { .row.userMain{column-count:2} }
       @media only screen and (max-width: 400px) { .row.userMain{column-count:1} }
-
+		h5, .h5 {
+			font-size: 1.5em !important;
+		}
 	</style>
     <script type="text/javascript">
 	function FindNext(){var e=document.getElementById("findField").value;if(window.find)!0,window.find(e);else if(document.selection&&document.selection.createRange){var n=document.selection.createRange();n.findText&&(!0,0<n.text.length&&(n.collapse(!0),n.move("character",1)),n.findText(e)&&n.select())}}
